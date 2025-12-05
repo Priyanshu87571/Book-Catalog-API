@@ -1,33 +1,92 @@
-# Book Catalog API
+Book Catalog API
 
-A simple RESTful API for managing a library's book catalog.  
-Built with **Node.js**, **Express**, and **MongoDB (Mongoose)**.
+A simple and efficient RESTful API for managing a library's book catalog.
+Built using Node.js, Express, and MongoDB (Mongoose), this API supports full CRUD operations and searching books by title or author.
 
-## Features
+🚀 Features
 
-- Create, read, update, and delete (CRUD) books
-- Each book has:
-  - `title` (string, required)
-  - `author` (string, required)
-  - `genre` (string)
-  - `publicationYear` (number)
-  - `availability` (boolean, default: true)
-- Search books by:
-  - title (partial, case-insensitive)
-  - author (partial, case-insensitive)
+➕ Add new books
 
-## Tech Stack
+📄 Get all books
 
-- Node.js
-- Express
-- MongoDB + Mongoose
-- dotenv, cors, morgan
+🔍 Search books by:
 
-## Getting Started
+Title (case-insensitive)
 
-### 1. Clone & install
+Author (case-insensitive)
 
-```bash
-git clone <your-repo-url>
-cd book-catalog-api
+📘 Get book by ID
+
+✏️ Update book details
+
+❌ Delete a book
+
+📦 Uses MongoDB for data storage
+
+🛠️ Tech Stack
+
+Node.js
+
+Express.js
+
+MongoDB + Mongoose
+
+dotenv
+
+Morgan
+
+Cors
+
+📁 Project Structure
+Book-Catalog-API/
+├── src/
+│   ├── config/
+│   │   └── db.js
+│   ├── controllers/
+│   │   └── bookController.js
+│   ├── models/
+│   │   └── Book.js
+│   ├── routes/
+│   │   └── bookRoutes.js
+│   ├── middleware/
+│   │   └── errorHandler.js
+│   └── index.js
+├── .env.example
+├── .gitignore
+├── package.json
+├── package-lock.json
+└── README.md
+
+⚙️ Installation & Setup
+1️⃣ Clone the Repository
+git clone https://github.com/Priyanshu87571/Book-Catalog-API.git
+cd Book-Catalog-API
+
+2️⃣ Install Dependencies
 npm install
+
+3️⃣ Add Environment Variables
+
+Create a .env file in the root folder:
+
+MONGO_URI=mongodb://127.0.0.1:27017/book_catalog_db
+PORT=5000
+
+
+Or use a MongoDB Atlas connection string.
+
+4️⃣ Start the Server
+
+Development (with nodemon):
+
+npm run dev
+
+
+Production:
+
+npm start
+
+
+Server runs at:
+
+http://localhost:5000
