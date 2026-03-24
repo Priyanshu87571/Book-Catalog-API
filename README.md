@@ -52,6 +52,7 @@ Book-Catalog-API/
 │   │   └── bookController.js
 
 │   ├── models/
+
 │   │   └── Book.js
 │   ├── routes/
 │   │   └── bookRoutes.js
