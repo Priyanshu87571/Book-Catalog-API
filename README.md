@@ -15,7 +15,7 @@ Title (case-insensitive)
 
 Author (case-insensitive)
 
-📘 Get book by ID
+## Get book by ID
 
 ✏️ Update book details
 
