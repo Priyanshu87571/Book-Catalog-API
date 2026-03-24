@@ -94,7 +94,6 @@ MONGO_URI=mongodb://127.0.0.1:27017/book_catalog_db
 
 PORT=5000
 
-
 Or use a MongoDB Atlas connection string.
 
 4️⃣ Start the Server
