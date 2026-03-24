@@ -45,7 +45,8 @@ Book-Catalog-API/
 
 │   ├── config/
 
-│   │   └── db.js
+│   │   └── db.js 
+
 │   ├── controllers/
 │   │   └── bookController.js
 │   ├── models/
