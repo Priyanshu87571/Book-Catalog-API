@@ -56,6 +56,7 @@ Book-Catalog-API/
 │   │   └── Book.js
 
 │   ├── routes/
+
 │   │   └── bookRoutes.js
 │   ├── middleware/
 │   │   └── errorHandler.js
