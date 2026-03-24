@@ -60,6 +60,7 @@ Book-Catalog-API/
 │   │   └── bookRoutes.js
 
 │   ├── middleware/
+
 │   │   └── errorHandler.js
 │   └── index.js
 ├── .env.example
