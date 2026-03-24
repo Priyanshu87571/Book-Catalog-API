@@ -3,7 +3,7 @@
 A simple and efficient RESTful API for managing a library's book catalog.
 Built using Node.js, Express, and MongoDB (Mongoose), this API supports full CRUD operations and searching books by title or author.
 
-🚀 Features
+# Features
 
 ➕ Add new books
 
