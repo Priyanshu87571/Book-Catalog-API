@@ -31,7 +31,7 @@ Express.js
 
 MongoDB + Mongoose
 
-dotenv
+.env
 
 Morgan
 
